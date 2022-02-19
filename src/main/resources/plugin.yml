@@ -1,0 +1,12 @@
+name: WorldList
+version: ${project.version}
+main: com.seailz.worldlist.WorldList
+api-version: 1.18
+authors: [ Seailz ]
+description: List worlds
+website: www.aquaticraft.xyz
+commands:
+  worlds:
+    aliases: [world]
+    description: Opens a GUI to see a list of worlds.
+    usage: /worlds
